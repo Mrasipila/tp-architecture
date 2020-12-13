@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <meta charset="UTF-8">
+</head>
+    
+<body>
+
+<form method="post">
+    <label for="code">Code du vol :</label><br>
+    <input type="text" id="code" name="code" placeholder="Enter your flight code"><br>
+    <p>from</p>
+    <select name="departure" required>
+        <option>CDG</option>
+        <option>ORL</option>
+        <option>DTW</option>
+    </select>
+    <p>to</p>
+    <select name="arrival" required>
+        <option>JFK</option>
+        <option>SIN</option>
+        <option>LHR</option>
+        <option>HKG</option>
+        <option>LAD</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+<br><br><br>
+<a href="list" class="button">Mes Reservations</a>
+
+</body>
+
+</html> 
