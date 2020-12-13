@@ -11,7 +11,7 @@ Ci-dessous le modèle que nous allons utiliser d’une architecture de micro-ser
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Architecture.png)
 
-Non allons partir sur une **Presentation Layer** en : HTML, CSS
+Nous allons partir sur une **Presentation Layer** en : HTML, CSS
 
 **Une Application Layer** en :
 Flask
