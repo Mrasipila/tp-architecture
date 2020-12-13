@@ -25,8 +25,8 @@ Flask pour le control qu’il nous donne sur la gestion des différents services
 ## Motif d'architecture MVVM :
 * **View :** fichiers HTML/CSS
 * **Model :** données SQLITE, JSON
-* **View-Model :** API.py 
-* **View-Controller :** vue.py
+* **View-Model :** vue.py
+* **View-Controller :** API.py 
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/MVVM.png)
 
