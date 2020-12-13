@@ -20,7 +20,7 @@ SQLite3 et API Rest
 
 Flask pour le control qu’il nous donne sur la gestion des différents services et puisqu’il s’agit d’une application légère. 
 
-## On a rendu le POST Idempotent en desactivant le bouton à l'appui 
+### On a rendu le POST Idempotent en desactivant le bouton à l'appui 
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Schéma.png)
 
