@@ -1,5 +1,5 @@
-Pour démarer le serveur veuillez executer les commandes : flask init-db ET flask run
-Le projet a été developpé sur l'IDE Python PyCharm
+Pour démarer le serveur veuillez executer les commandes : flask init-db ET flask run  
+Le projet a été developpé sur l'IDE Python PyCharm  
 Pour accéder à la page aller à l'adresse "http://127.0.0.1:5000/index"
 
 # Design : 
