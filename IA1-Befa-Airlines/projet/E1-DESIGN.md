@@ -14,7 +14,7 @@ Ci-dessous le modèle que nous allons utiliser d’une architecture de micro-ser
 Nous allons partir sur une **Presentation Layer** en : HTML, CSS
 
 **Une Application Layer** en :
-Flask
+Flask, Jinja
 
 **Une Data Layer** en :
 SQLite3 et API Rest
