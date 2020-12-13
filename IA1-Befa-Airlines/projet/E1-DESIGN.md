@@ -22,13 +22,14 @@ Flask pour le control qu’il nous donne sur la gestion des différents services
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Schéma.png)
 
-##Motif d'architecture MVVM :
-..*View : fichiers HTML/CSS
-..*Model : données SQLITE, JSON
-..*View-Model : API.py 
-..*View-Controller : vue.py
+## Motif d'architecture MVVM :
+..* View : fichiers HTML/CSS
+..* Model : données SQLITE, JSON
+..* View-Model : API.py 
+..* View-Controller : vue.py
 
 On choisit ce motif car la vue de l'utilisateur n'est pas stateless, de plus on a besoin de représenter la données, de formatter la données par une classe à cause des différents services nous offrant de la data. 
 
-##Améliorations : Utilisation du javascript pour la génération des options des listes en innerHTML.\n
-La création de login, mot de passe, authentification pour avoir un espace en fonction de l'user enregistré dans la base de données
+## Améliorations : 
+Utilisation du javascript pour la génération des options des listes en innerHTML.  
+La création de login, mot de passe, authentification pour avoir un espace en fonction de l'user enregistré dans la base de données  
