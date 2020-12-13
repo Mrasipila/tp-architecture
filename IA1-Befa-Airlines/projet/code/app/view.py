@@ -6,12 +6,14 @@ bp = Blueprint('view', __name__)
 
 @bp.route('/index', methods=('GET', 'POST'))
 def index():
+    act = True;
     string = "<br>"
     db = get_db()
     i = 1
     if request.method == 'GET':
+        act = True;
         API.Load_Database('http://api-rg-esiea-tp.westeurope.azurecontainer.io/flights', db)
-        return render_template('view/index.html')
+        return render_template('view/index.html',bool=act)
     if request.method == 'POST':
         code = request.form['code']
         departure = request.form['departure']
@@ -35,7 +37,7 @@ def index():
         for i in range(len(rowCode)):
             string += str(rowCode[i][0]) + " " + str(rowCode[i][1]) + " " + str(rowCode[i][2]) + " " + str(
                 rowCode[i][3]) + "<br>"
-
+        act = False;
         return f"Transaction Done, You can go check your reservations for the flight {string}"
 
 
