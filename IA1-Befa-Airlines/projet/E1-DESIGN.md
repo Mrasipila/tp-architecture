@@ -10,4 +10,19 @@ Ci-dessous le modèle que nous allons utiliser d’une architecture de micro-ser
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Architecture.png)
 
+Non allons partir sur une presentation Layer en : HTML, CSS
+
+Une Application Layer en :
+Flask
+
+Une Data Layer en :
+SQLite3 et API Rest
+
+Flask pour le control qu’il nous donne sur la gestion des différents services et puisqu’il s’agit d’une application légère. 
+
+Le client fait des POST car le POST est Idempotent. 
+
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Schéma.png)
+
+Améliorations : Utilisation du javascript pour la génération des options des listes en innerHTML.\n
+La création de login, mot de passe, authentification pour avoir un espace en fonction de l'user enregistré dans la base de données
