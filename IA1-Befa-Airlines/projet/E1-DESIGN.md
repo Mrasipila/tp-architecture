@@ -7,3 +7,7 @@ Dans notre situation où l’on doit communiquer avec 2 services (API & BDD), no
 
 
 Ci-dessous le modèle que nous allons utiliser d’une architecture de micro-services simple. Nous n’avons pas besoin de partir sur une architecture Backend for Frontend car il n’y a qu’un seul utilisateur pour cette application. 
+
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Architecture.png)
+
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Schéma.png)
