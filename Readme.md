@@ -25,6 +25,6 @@ Notre POST du formulaire est idempotent car on désactive le bouton lors de l'en
 
 Sur la plateforme de dev j'ai accès aux logs des échanges de requêtes serveur/clients
 
-
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/dev.png)
 
 Pour accéder à la page aller à l'adresse "http://127.0.0.1:5000/index"
