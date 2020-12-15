@@ -9,7 +9,7 @@ Dans notre situation où l’on doit communiquer avec 2 services (API & BDD), no
 
 Ci-dessous le modèle que nous allons utiliser d’une architecture de micro-services simple. Nous n’avons pas besoin de partir sur une architecture Backend for Frontend car il n’y a qu’un seul utilisateur pour cette application. Nous aurons 3 couches. Le Front-End avec l'interface client, le backend avec le webserver et les services
 
-![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Architecture.png)
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/Architecture.png)
 
 Nous allons partir sur une **Presentation Layer** en : HTML, CSS
 
@@ -23,7 +23,7 @@ Flask pour le control qu’il nous donne sur la gestion des différents services
 
 ### On a rendu le POST Idempotent en désactivant le bouton "submit" à l'appui 
 
-![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/Schéma.png)
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/Schéma.png)
 
 ## Motif d'architecture MVVM :
 * **View :** fichiers HTML/CSS
@@ -31,7 +31,7 @@ Flask pour le control qu’il nous donne sur la gestion des différents services
 * **View-Model :** API.py
 * **View-Controller :** vue.py
 
-![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/MVVM.png)
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/MVVM.png)
 
 On choisit ce motif car la vue de l'utilisateur n'est pas stateless, de plus on a besoin de représenter la données, de formatter la données par une classe à cause des différents services nous offrant de la data. 
 
