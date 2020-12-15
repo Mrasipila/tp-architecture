@@ -12,9 +12,15 @@ Notre site représenté par la vue dans l'architecture et par les fichiers html/
 
 - La vue principale du site qui envoie le formulaire 
 
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/site.PNG)
+
 - La vue qui confirme la transaction 
 
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/siteT.PNG)
+
 - La vue qui affiche les transactions
+
+![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/reservations.PNG)
 
 Notre webserver réalisé en Python sur Flask va instancier une base de donnée contenant les vols et communiquer avec une API REST dans le fichier API.py.
 Les modules de API.py seront utilisé par vue.py du webserver flask. Le webserver va faire un appel et stocker les données dans la base de données SQLite3
