@@ -10,15 +10,15 @@ flask run
 Ce projet consiste en la réalisation d'une architecture distribuée pour un site de "booking".
 Notre site représenté par la vue dans l'architecture et par les fichiers html/css dans notre répertoire contient 3 interfaces.
 
-- La vue principale du site qui envoie le formulaire 
+## - La vue principale du site qui envoie le formulaire 
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/site.PNG)
 
-- La vue qui confirme la transaction 
+## - La vue qui confirme la transaction 
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/siteT.PNG)
 
-- La vue qui affiche les transactions
+## - La vue qui affiche les transactions
 
 ![alt text](https://github.com/Mrasipila/tp-architecture/blob/IA1-Befa-Airlines/IA1-Befa-Airlines/projet/images/reservations.PNG)
 
